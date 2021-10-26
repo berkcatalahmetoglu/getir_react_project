@@ -11,13 +11,16 @@ function App() {
   return (
     <>
       <Header />
-      <SliderSection/>
-      <Campaigns />
-      <Cards />
-      <Favorites />
+      <SliderSection />
       <Categories />
+      <Campaigns />
+      <div className="container mx-auto">
+        <Favorites />
+        <Cards />
+        <MobileApp />
+      </div>
       <Footer />
-      <MobileApp />
+
 
     </>
   );
